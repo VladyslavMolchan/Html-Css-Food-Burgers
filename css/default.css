@@ -74,3 +74,28 @@ fieldset {
     padding: 0 var(--padding-container);
     margin: 0 auto;
 }
+
+@media (max-width: 480px) {
+    html {
+        --container: 640px;
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+        --padding-container: 64px;
+    }
+}
+
+@media (min-width: 1024px) {
+    html {
+        --padding-container: 32px;
+        --container: 960px;
+    }
+}
+
+@media (min-width: 1360px) {
+    html {
+        --container: 1290px;
+    }
+}
