@@ -70,6 +70,11 @@ fieldset {
     margin: 0 auto;
 }
 
+.currency {
+    font-weight: 400;
+}
+
+
 @media (max-width: 480px) {
     html {
         --container: 640px;
