@@ -78,8 +78,8 @@
         </nav>
 
         <section class="catalog">
-            <div class="container">
-                <div class="catalog__order order order_open">
+            <div class="container catalog__container">
+                <div class="catalog__order order order_open ">
                     <section class="order__wrapper">
                         <div class="order__wrap-title" tabindex="0" role="button">
                             <h2 class="order__title">Cart</h2>
@@ -88,9 +88,66 @@
                         </div>
 
                         <div class="order__wrap_list">
-                            <ul class="order__list"></ul>
-                            <ul class="order__list"></ul>
-                            <ul class="order__list"></ul>
+                            <ul class="order__list">
+                                <li class="order__item">
+                                    <img class="order__image" src="img/super_cheesy.jpg" alt="Super cheesy">
+
+                                    <div class="order__product">
+                                        <h3 class="order__product-title">Super cheesy</h3>
+
+                                        <p class="order__product-weight">512gr </p>
+
+                                            <p class="order__product-price">550
+                                            <span class="currency">₽</span>
+                                            </p>
+                                    </div>
+
+                                    <div class="order__product-count count">
+                                        <button class="count__minus">-</button>
+                                        <p class="count__amount">1</p>
+                                        <button class="count__plus">+</button>
+                                    </div>
+                                </li>
+
+                                <li class="order__item">
+                                    <img class="order__image" src="img/free.jpg" alt="French fries">
+
+                                    <div class="order__product">
+                                        <h3 class="order__product-title">French fries</h3>
+
+                                        <p class="order__product-weight">180gr</p>
+                                        <p class="order__product-price">245
+                                            <span class="currency">₽</span>
+                                        </p>
+                                    </div>
+
+                                    <div class="order__product-count count">
+                                        <button class="count__minus">-</button>
+                                        <p class="count__amount">2</p>
+                                        <button class="count__plus">+</button>
+                                    </div>
+                                </li>
+
+                                <li class="order__item">
+                                    <img class="order__image" src="img/hot-dog.jpg" alt="Hot-dog">
+
+                                    <div class="order__product">
+                                        <h3 class="order__product-title">Hot-dog</h3>
+
+                                        <p class="order__product-weight">245gr</p>
+                                        <p class="order__product-price">229
+                                            <span class="currency">₽</span>
+                                        </p>
+                                    </div>
+
+                                    <div class="order__product-count count">
+                                        <button class="count__minus">-</button>
+                                        <p class="count__amount">1</p>
+                                        <button class="count__plus">+</button>
+                                    </div>
+                                </li>
+                            </ul>
+
 
                             <div class="order__total">
                                 <p>Total</p>
@@ -111,12 +168,97 @@
                 <div class="catalog__wrapper">
                     <h2 class="catalog__title">Burgers</h2>
                     <div class="catalog__wrap_list">
-                        <ul class="catalog__list"></ul>
+                        <ul class="catalog__list">
+                            <li class="catalog__item">
+                                <article class="product">
+                                    <img src="img/photo-5.jpg" alt="Meat bomb" class="product__image">
+                                    <p class="product__price">689 <span class="currency">₽</span></p>
+
+                                    <h3 class="product__title">
+                                        <button class="product__detail">Meat bomb</button>
+                                    </h3>
+
+                                    <p class="product__weight">520gr</p>
+                                    <button class="product__add" type="button">Add</button>
+                                </article>
+                            </li>
+
+                            <li class="catalog__item">
+                                <article class="product">
+                                    <img src="img/photo-1.jpg" alt="Meat bomb" class="product__image">
+                                    <p class="product__price">689 <span class="currency">₽</span></p>
+
+                                    <h3 class="product__title">
+                                        <button class="product__detail">Meat bomb</button>
+                                    </h3>
+
+                                    <p class="product__weight">520gr</p>
+                                    <button class="product__add" type="button">Add</button>
+                                </article>
+                            </li>
+
+                            <li class="catalog__item">
+                                <article class="product">
+                                    <img src="img/photo-3.jpg" alt="Super cheesy" class="product__image">
+                                    <p class="product__price">550<span class="currency">₽</span></p>
+
+                                    <h3 class="product__title">
+                                        <button class="product__detail">Super cheesy</button>
+                                    </h3>
+
+                                    <p class="product__weight">512gr</p>
+                                    <button class="product__add" type="button">Add</button>
+                                </article>
+                            </li>
+
+                            <li class="catalog__item">
+                                <article class="product">
+                                    <img src="img/photo.jpg" alt="Hearty" class="product__image">
+                                    <p class="product__price">639<span class="currency">₽</span></p>
+
+                                    <h3 class="product__title">
+                                        <button class="product__detail">Hearty</button>
+                                    </h3>
+
+                                    <p class="product__weight">580gr</p>
+                                    <button class="product__add" type="button">Add</button>
+                                </article>
+                            </li>
+
+                            <li class="catalog__item">
+                                <article class="product">
+                                    <img src="img/photo-2.jpg" alt="Meat bomb" class="product__image">
+                                    <p class="product__price">689 <span class="currency">₽</span></p>
+
+                                    <h3 class="product__title">
+                                        <button class="product__detail">Meat bomb</button>
+                                    </h3>
+
+                                    <p class="product__weight">520gr</p>
+                                    <button class="product__add" type="button">Add</button>
+                                </article>
+                            </li>
+
+                            <li class="catalog__item">
+                                <article class="product">
+                                    <img src="img/photo-4.jpg" alt="Meat bomb" class="product__image">
+                                    <p class="product__price">689 <span class="currency">₽</span></p>
+
+                                    <h3 class="product__title">
+                                        <button class="product__detail">Meat bomb</button>
+                                    </h3>
+
+                                    <p class="product__weight">520gr</p>
+                                    <button class="product__add" type="button">Add</button>
+                                </article>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
 
     </main>
+
 </body>
 </html>
