@@ -16,7 +16,7 @@
 }
 
 .product__price {
-    ont-weight: 600;
+    font-weight: 600;
     font-size: 16px;
     line-height: 100%;
     margin-bottom: 4px;
@@ -52,12 +52,6 @@
     padding: 9px;
 }
 
-@media (min-height: 1024px) {
-    .product {
-        padding: 12px;
-        border-radius: 18px;
-        min-height: 411px;
-    }
 
     .product__image {
         width: 100%;
@@ -67,7 +61,7 @@
     }
 
     .product__price {
-        ont-weight: 24px;
+        font-weight: 400;
         margin-bottom: 8px;
     }
 
@@ -86,4 +80,20 @@
         padding: 12px;
     }
 
+
+@media (min-height: 1024px) {
+    .product {
+        padding: 12px;
+        border-radius: 18px;
+        min-height: 411px;
+    }
+}
+
+@media (min-height: 320px) {
+    .product__image {
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+        margin-bottom: 16px;
+    }
 }
